@@ -39,7 +39,7 @@ function showMainMenu() {
         updateSettings();
       }
     },
-    'Time Period': {
+    'Time Period[s]': {
       value: settings.period||10,
       min: 1,
       max: 120,
